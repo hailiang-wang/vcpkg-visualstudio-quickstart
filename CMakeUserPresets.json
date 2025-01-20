@@ -1,0 +1,17 @@
+{
+    "version": 3,
+    "configurePresets": [
+        {
+            "name": "default",
+            "inherits": "vcpkg",
+            "environment": {
+                "VCPKG_ROOT": "C:\\devel\\Microsoft\\vcpkg",
+                "C": "C:\\devel\\msys64\\mingw64\\bin\\gcc.exe",
+                "CXX": "C:\\devel\\msys64\\mingw64\\bin\\g++.exe",
+                "CMT_MINGW_PATH": "C:\\devel\\msys64\\mingw64\\bin",
+                "VCPKG_TARGET_TRIPLET": "x64-mingw-static",
+                "VCPKG_DEFAULT_HOST_TRIPLET": "x64-mingw-static"
+            }
+        }
+    ]
+}
